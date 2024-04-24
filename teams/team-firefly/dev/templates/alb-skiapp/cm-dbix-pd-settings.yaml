@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: dbix-pd-settings
-  namespace: firefly
+  namespace: team-firefly
 data:
   settings.json: |
     [
