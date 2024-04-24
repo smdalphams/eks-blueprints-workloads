@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dbix-pd-settings
+  namespace: firefly
+data:
+  settings.json: |
+    [
+      {
+      "instID": "a7ae9351-4cce-4325-a8f4-ac72db2ff506",
+      "InstanceName": "Mars1",
+      "InstanceDB": "new firefly repository",
+      "Status": "ok",
+      "ServerMode": "data",
+      "ServerConfigType": "file",
+      "ServerConfigLoc": "c:\\programdata\\firefly",
+      "Active": "true"
+      }
+    ]
