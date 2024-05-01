@@ -15,5 +15,6 @@ data:
       "ServerConfigType": "file",
       "ServerConfigLoc": "c:\\programdata\\firefly",
       "Active": "true"
+      "Testing": "new"
       }
     ]
